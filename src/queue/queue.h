@@ -1,8 +1,7 @@
 #ifndef QUEUE_H
 #define QUEUE_H
 
-#include "ll/ll.h"
-//#include "../src/bool.h"
+#include "ll.h"
 #include <stdbool.h>
 
 typedef struct {
