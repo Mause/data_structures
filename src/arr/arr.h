@@ -19,4 +19,6 @@ void arr_append(LengthedArray* arr, char* value);
 char* arr_coalesce(LengthedArray* arr, int length);
 LengthedArray* arr_merge(LengthedArray* arr1, LengthedArray* arr2);
 
+int arr_total_length(LengthedArray* arr);
+
 #endif

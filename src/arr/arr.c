@@ -70,3 +70,14 @@ char* arr_coalesce(LengthedArray* arr, int length) {
 
     return start_of_str;
 }
+
+
+int arr_total_length(LengthedArray* arr) {
+    int i, len = 0;
+
+    for (i=0; i<arr->len; i++) {
+        len += strlen(arr->array[i]);
+    }
+
+    return len;
+}
