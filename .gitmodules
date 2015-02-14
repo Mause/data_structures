@@ -1,0 +1,3 @@
+[submodule "lib/dict.c"]
+	path = lib/dict.c
+	url = https://github.com/Mause/dict.c
